@@ -1,0 +1,31 @@
+.b{
+	font-weight: bold;
+}
+.wd-100{
+	width: 100%;
+}
+.bg-transparent{
+	background-color: transparent;
+}
+.mar-t-150{
+	margin-top: 150px;
+}
+.pd-10{
+	padding: 10px;
+}
+.border-radius-20{
+	border-radius: 20px;
+}
+.color-white{
+	color: #fff !important;
+}
+
+.mt-20{
+	margin-top: 20px;
+}
+.w-110{
+	width: 110px;
+}
+.height-50{
+	height: 50px;
+}

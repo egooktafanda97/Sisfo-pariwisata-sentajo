@@ -1,0 +1,243 @@
+.line-left{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-left: 2px solid orange;
+    padding-left: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.line-rigt{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-right: 2px solid orange;
+    padding-right: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.btn-circle-cos{
+    width: 30px !important; 
+    height: 30px !important; 
+    padding: 5px !important; 
+    border-radius:50% !important;
+}
+
+.line-border-right {
+    border-right: 2px solid orange;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-right: 20px;
+}
+
+.a_{
+    margin-bottom: 0 !important; 
+    margin-top:10px !important;
+}
+.a__{
+    margin-bottom: 0 !important; 
+    margin-top:10px !important;
+}
+
+.line-hr{
+    border-bottom: 1px solid gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.list-group-item:before {
+    content: '';
+}
+
+.list-group-item {
+    margin-left: 0px;
+    padding-left: 15px;
+}
+
+.list-group-item .row>div.col-sm-5 {
+    margin-left: 10px;
+}
+
+.list-group-item .row>div.col-sm-6 {
+    margin-left: -10px;
+}
+
+.panel-title {
+    margin-top: 13px;
+    margin-right: 7px;
+}
+
+.list-group-item-heading,
+.list-group-item-text {
+    padding-left: 3px;
+}
+
+.form-inline {
+    padding-right: 1.1em;
+}
+
+.form-inline .btn-primary {
+    margin-top: 0.5em;
+}
+
+@media only screen and (min-width: 768px) {
+    .form-inline {
+        padding-right: 0;
+    }
+
+    .form-inline .btn-primary {
+        margin-top: 0;
+        margin-left: 2em;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .list-group-item .row>div.col-sm-5 {
+        margin-left: 0px;
+        padding-left: 5px;
+    }
+
+    .list-group-item-heading {
+        margin-top: 3px;
+    }
+}
+
+@media (max-width: 250px) {
+    #search {
+        padding-left: 10px;
+    }
+}
+
+
+/*font size*/
+.f-10{
+    font-size: 10px !important;
+}
+.f-11{
+    font-size: 11px !important;
+}
+.f-12{
+    font-size: 12px !important;
+}
+.f-13{
+    font-size: 13px !important;
+}
+.f-14{
+    font-size: 14px !important;
+}
+.f-15{
+    font-size: 15px !important;
+}
+.f-16{
+    font-size: 16px !important;
+}
+.f-17{
+    font-size: 17px !important;
+}
+.f-18{
+    font-size: 18px !important;
+}
+.f-19{
+    font-size: 19px !important;
+}
+.f-20{
+    font-size: 20px !important;
+}
+/*---*/
+
+/*-----------------------*/
+.avatar-upload {
+  position: relative;
+  margin: 10px auto;
+}
+.avatar-upload .avatar-edit {
+  position: absolute;
+  right: 12px;
+  z-index: 1;
+  top: 10px;
+}
+.avatar-upload .avatar-edit input {
+  display: none;
+}
+.avatar-upload .avatar-edit input + label {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 0;
+  border-radius: 100%;
+  background: #009688;
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+}
+.avatar-upload .avatar-edit input + label:hover {
+  background: #14635b;
+  border-color: #d6d6d6;
+}
+.avatar-upload .avatar-edit input + label:after {
+  content: "Edit";
+  font-family: "FontAwesome";
+  color: #fff;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+}
+.avatar-upload .avatar-preview {
+  position: relative;
+  border-radius: 100%;
+  border: 6px solid #f8f8f8;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.avatar-upload .avatar-preview > div {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+/*-----------------------------------*/
+
+.f-head{
+    display: flex;
+}
+.f-head .c-1{
+    flex:1;
+    display: flex;
+    align-items: center;
+}
+.f-head .c-2{
+    flex:2;
+    display: flex;
+}
+.f-head .c-2-1{
+    flex:2;
+    display: flex;
+    align-items: center;
+}
+.f-head .c-2-1 .form-group{
+    margin: 0 !important;
+}
+.f-head .c-2-1 input{
+    padding-left: 10px;
+    border: 1px solid #ccc !important;
+    border-radius: 10px !important;
+}
+.f-head .c-2-2{
+    flex:0.5;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+}
+.f-head .c-2-3{
+    flex:0.5;
+    display: flex;
+    align-items: center;
+}

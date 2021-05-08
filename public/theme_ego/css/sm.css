@@ -1,0 +1,34 @@
+ 
+#dashboard{
+  width: 100%;
+  background-image: url('../images/hasil_1.jpg');
+  position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-color: rgba(255,255,255,0.4);
+}	
+#Profil{
+  background-image: url('../images/bg__.png');
+  background-size: cover;
+  margin-top: -150px;
+  background-color: transparent;
+  width: 100%;
+  padding-bottom: 100px;
+}
+.xs__{
+ display: none;   
+}
+.font-size-hv{
+  font-size: 2rem;
+}
+.f-title_skill{
+  font-size: 7vh;
+  font-weight: bold; 
+  color: #526f77
+}
+.pd-lg{
+  padding-left: 20px;
+}
+
+

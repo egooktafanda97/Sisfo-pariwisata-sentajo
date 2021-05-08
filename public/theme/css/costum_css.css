@@ -1,0 +1,33 @@
+
+/*.header_area .navbar{
+	background-color: #000 !important;
+}*/
+/*.header_area .navbar .nav .nav-item .nav-link{
+	color: gray !important;
+}
+.header_area .navbar .nav .nav-item .nav-link:hover{
+	color: #fff !important;
+}*/
+
+
+.visi_misi{
+	width: 100%; 
+	border-left: 2px solid orange; 
+	border-top-left-radius:20px;
+	border-bottom-left-radius: 20px;
+	padding: 20px;
+}
+
+.section_gap_c{
+	padding-bottom: 20px !important;
+	padding-top: 80px;
+}
+.section_gap_c2{
+	padding-top: 20px !important;
+	padding-bottom: 50px !important;
+}
+.fa-image-contact{
+  cursor: pointer;
+  font-size: 21px !important;
+  margin: 5px 10px 5px 10px !important;
+}

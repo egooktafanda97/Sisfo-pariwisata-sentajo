@@ -1,0 +1,1 @@
+pathUrl = window.location.pathname.split( '/' );
